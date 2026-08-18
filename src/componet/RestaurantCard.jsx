@@ -1,5 +1,6 @@
 const ResCard =({resData}) => {
     const {Name ,DeliveryTime ,img ,Rating ,price } = resData
+    console.log(img)
     return (
         <div className="res-card"> 
 

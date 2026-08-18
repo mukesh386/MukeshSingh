@@ -20,9 +20,9 @@ const Header =() => {
                     <li>Home</li>
                   <Link to="/about"><li> Abouts Us</li></Link>   
                  <Link to ="/grocery"><li> grocery</li></Link>  
-                 // this link just show cart items and hwo many items are in this cart conatiner
+                 
                    <Link to ="/Cart"><li> Cart ({CartItems.length})</li> </Link>
-                   // this show as infromation about login user
+                   
                     <li> {loggedInUser}</li>
                 </ul>
             </div>
